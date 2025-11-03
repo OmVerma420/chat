@@ -10,7 +10,7 @@ import { asyncHandler } from "./middlewares/asyncHandler.middlerware";
 import { HTTPSTATUS } from "./config/https.config";
 import { errorHandler } from "./middlewares/errorHandler.middleware";
 import connectDatabase from "./config/database.config";
-import { initializeSocket } from "socket.io";
+import { initializeSocket } from "./lib/socket";
 import routes from "./routes";
 
 import "./config/passport.config";
